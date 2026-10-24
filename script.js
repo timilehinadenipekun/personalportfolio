@@ -38,7 +38,7 @@ const init = () => {
     experience:['MSc Computing Science — University of Alberta','Graduate Teaching Assistant — University of Alberta','BSc Computing, First Class Honours — University of Buckingham','MK STEM Awards — Advancing Women in STEM & Overall Champion'],
     interests:['Among Us 🚀 · board games 🎲 · Genshin Impact ✨ · Brooklyn Nine-Nine 🍍'],
     contact:['Email: timiadenipekun@outlook.com','LinkedIn: linkedin.com/in/timilehinadenipekun/','GitHub: github.com/timilehinadenipekun'],
-    resume:['Add your CV to assets/resume.pdf, then use the View résumé button above.']
+    resume:['Use the View résumé button above.']
   };
   function appendTerminal(text,cls='') { const line=document.createElement('p'); if(cls)line.className=cls;line.textContent=text;output.appendChild(line);output.scrollTop=output.scrollHeight; }
   function clearTerminal(){output.replaceChildren();appendTerminal('Terminal cleared. Type help to start again.','term-muted');}
